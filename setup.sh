@@ -18,10 +18,10 @@ scope ()
 
     if [  "$distname" == "fedora" ]
     then
-	installlocation="/usr/share/fonts"
+	installlocation="/usr/share/fonts/atolisglli"
     elif [ "$distname" == "ubuntu" ]
     then
-	installlocation="/usr/share/fonts"
+	installlocation="/usr/share/fonts/atolisglli"
     fi
 
     # font files --- Use single quotes because double ones would be
