@@ -11,6 +11,8 @@
 
 !url
 !*.zip
+!*.ttf
+!*.otf
 
 # ...even if they are in subdirectories
 
