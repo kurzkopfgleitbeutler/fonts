@@ -1,0 +1,15 @@
+#+Time-stamp: <2021-08-09T16:37:58>
+#+title: a collection of fonts for setup on fedora / ubuntu
+#+options: num:nil author:nil ^:t
+#+property: header-args :noweb yes :mkdirp yes
+#+language: en
+
+#+latex_class_options: [a4paper]
+#+latex_header_extra: \setlength{\parindent}{0}
+#+latex_header_extra: \setlength{\parskip}{4mm plus 2mm minus 1mm}
+#+latex_header_extra: \usepackage[top=1.5cm, bottom=2cm, left=1cm, right=3cm]{geometry}
+
+Run setup.sh to install fonts.
+Expect to be asked your user's sudo password
+
+https://www.google.com/get/noto/help/install/
