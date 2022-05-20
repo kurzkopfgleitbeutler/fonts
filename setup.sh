@@ -31,6 +31,7 @@ scope ()
     firacode=$(find $sourcedir/fira_code/Fira_Code_v5.2/ttf/ -type f -iname '*ttf' -o -type f -iname '*otf')
     hack=$(find $sourcedir/hack -type f -iname '*ttf' -o -type f -iname '*otf')
     hasklig=$(find $sourcedir/hasklig -type f -iname '*ttf' -o -type f -iname '*otf')
+    ia_writer=$(find $sourcedir/ia_writer -type f -iname '*ttf' -o -type f -iname '*otf')
     input=$(find $sourcedir/input -type f -iname '*ttf' -o -type f -iname '*otf')
     monoid=$(find $sourcedir/monoid -type f -iname '*ttf' -o -type f -iname '*otf')
     noto=$(find $sourcedir/noto -type f -iname '*ttf' -o -type f -iname '*otf')
@@ -39,7 +40,7 @@ scope ()
     roboto=$(find $sourcedir/roboto -type f -iname '*ttf' -o -type f -iname '*otf')
     unifont=$(find $sourcedir/unifont -type f -iname '*ttf' -o -type f -iname '*otf')
     # which to install
-    ins="$averia $fantasque $firacode $hack $hasklig $input $monoid $noto $opendyslexic $roboto $unifont"
+    ins="$averia $fantasque $firacode $hack $hasklig $ia_writer $input $monoid $noto $opendyslexic $roboto $unifont"
 
     # ---------- ARGPARSE ------------
 
